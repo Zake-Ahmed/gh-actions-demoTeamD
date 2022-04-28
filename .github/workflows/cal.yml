@@ -30,7 +30,7 @@ jobs:
       #   run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Test sub script
+      - name: Test cal script
         run: |
-          sudo chmod +x add.sh div.sh multi.sh sub.sh test-cal.sh
+          sudo chmod +x add.sh div.sh multi.sh sub.sh test-cal.sh cal.sh
           ./test-cal.sh
