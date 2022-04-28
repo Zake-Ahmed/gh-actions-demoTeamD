@@ -14,7 +14,7 @@ done
 for i in {0..5}; do
   a=${num1s[$i]}
   b=${num2s[$i]}
-  if [ [ $(./add.sh $a $b ) -eq ${results[$a,$b]}  &&  $(./sub.sh $a $b) -eq ${results2[$a,$b]}  &&  $(./div.sh $a $b) -eq ${results3[$a,$b]}  &&  $(./multi.sh $a $b) -eq ${results4[$a,$b]}  ]; then
+  if [ [ $(./add.sh $a $b ) -eq ${results[$a,$b]}  &&  $(./sub.sh $a $b) -eq ${results2[$a,$b]}  &&  $(./div.sh $a $b) -eq ${results3[$a,$b]}  &&  $(./multi.sh $a $b) -eq ${results4[$a,$b]} ] ]; then
        echo "Test passed"
   else
     echo "Test failed"
